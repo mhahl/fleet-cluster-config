@@ -1,0 +1,14 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: kustomize
+  namespace: fleet-default
+spec:
+  repo: https://github.com/mhahl/fleet-cluster-config
+  targets:
+  - name: syd-rke2-hahl
+    clusterSelector:
+      matchLabels:
+        owner: hahl
+    kustomize:
+      dir: clusters/syd-rke2-hahl
