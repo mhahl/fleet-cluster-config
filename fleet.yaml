@@ -9,6 +9,6 @@ spec:
   - name: syd-rke2-hahl
     clusterSelector:
       matchLabels:
-        owner: hahl
+        au.hahl/cluster-name: syd-rke2-hahl
     kustomize:
       dir: clusters/syd-rke2-hahl
