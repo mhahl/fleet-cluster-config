@@ -1,4 +1,4 @@
 resources:
   - cert-manager/
   - external-secrets/
-  - operator-lifecycle-manager/
+  #  - operator-lifecycle-manager/
