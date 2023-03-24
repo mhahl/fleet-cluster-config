@@ -13,3 +13,5 @@ spec:
         au.hahl/cluster-name: syd-rke2-hahl
     kustomize:
       dir: "./"
+  dependsOn:
+    - name: "hahl-gitops-infrastructure"
