@@ -1,7 +1,0 @@
-resources:
-
-  # Vault
-  - rbac/vault-auth-delegator.yaml
-  - serviceaccounts/vault-auth.yaml
-
-
