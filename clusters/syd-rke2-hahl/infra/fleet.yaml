@@ -1,7 +1,8 @@
+---
 kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
-  name: kustomize
+  name: cluster-infra
   namespace: fleet-local
 spec:
   repo: https://github.com/mhahl/fleet-cluster-config
@@ -11,4 +12,4 @@ spec:
       matchLabels:
         au.hahl/cluster-name: syd-rke2-hahl
     kustomize:
-      dir: clusters/syd-rke2-hahl
+      dir: "./"

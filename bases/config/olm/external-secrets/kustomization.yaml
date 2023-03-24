@@ -1,4 +1,3 @@
 resources:
-  - external-secrets-operator.yaml
   - operator-config.yaml
   - cluster-secret-store.yaml

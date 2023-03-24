@@ -1,5 +1,4 @@
 resources:
-  - cert-manager.yaml
   - cloudflare-secret.yaml
   - zerossl-secret.yaml
   - zerossl-issuer.yaml
