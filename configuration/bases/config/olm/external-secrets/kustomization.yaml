@@ -1,0 +1,3 @@
+resources:
+  - operator-config.yaml
+  - cluster-secret-store.yaml

@@ -1,0 +1,15 @@
+---
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: config
+  namespace: fleet-local
+spec:
+  repo: https://github.com/mhahl/fleet-cluster-config
+  targets:
+  - name: syd-rke2-hahl
+    clusterSelector:
+      matchLabels:
+        au.hahl/cluster-name: syd-rke2-hahl
+    kustomize:
+      dir: "./"
